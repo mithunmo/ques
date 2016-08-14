@@ -1,0 +1,6 @@
+# ques
+
+Do you know the difference between range and xrange?
+
+range creates a list, so if you do range(1, 10000000) it creates a list in memory with 9999999 elements.
+xrange is a sequence object that evaluates lazily.
